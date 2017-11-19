@@ -1,3 +1,3 @@
 <?php
 
-require __DIR__.'/../views/about-culture.view.php';
+require 'views/about-culture.view.php';
