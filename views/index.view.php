@@ -14,4 +14,22 @@
         </li>
         <?php endforeach;?>
     </ul>
+
+<h1>Submit your form</h1>
+
+<form method="POST" action="/names">
+
+    <input name="name">
+
+    <button type="submit">Submit</button>
+
+</form>
+</br>
+
+<?php foreach ($users as $user):?>
+
+    <li><?= $user->name; ?></li>
+
+<?php endforeach;?>
+
 <?php require 'partials/footer.php'; ?>
