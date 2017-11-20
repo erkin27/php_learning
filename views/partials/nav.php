@@ -7,7 +7,7 @@
             <a href="/about">About</a>
         </li>
         <li>
-            <a href="/about/culture">About our Culture</a>
+            <a href="/users">Users</a>
         </li>
         <li>
             <a href="/contact">Contact</a>
